@@ -1,0 +1,47 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+    <Canvas Name="MyCanvas" KeyDown="CanvasKeyDown" KeyUp="CanvasKeyUp" Focusable="True" Background="SkyBlue">
+        <Rectangle Name="Mario" Width="30" Height="60" Fill="Red" Canvas.Left="47" Canvas.Top="471"  />
+
+        <Rectangle Tag="Groun" Stroke="Green" Fill="Green" StrokeThickness="3" Height="35" Width="794" Canvas.Top="536"/>
+        <Rectangle Tag="Groun" Stroke="Green" Fill="Green" StrokeThickness="3" Height="45" Width="73" Canvas.Top="494" Canvas.Left="492"/>
+        <Rectangle Tag="Groun" Stroke="Green" Fill="Green" StrokeThickness="3" Height="86" Width="30" Canvas.Top="82" Canvas.Left="764"/>
+        <Rectangle Tag="Groun" Stroke="Green" Fill="Green" StrokeThickness="3" Height="39" Width="174" Canvas.Top="236" Canvas.Left="10"/>
+        <Rectangle Tag="Groun" Stroke="Green" Fill="Green" StrokeThickness="3" Height="86" Width="30" Canvas.Top="158" Canvas.Left="154"/>
+        <Rectangle Tag="Groun" Stroke="Green" Fill="Green" StrokeThickness="3" Height="39" Width="347" Canvas.Top="158" Canvas.Left="447"/>
+        <Rectangle Tag="Groun" Stroke="Green" Fill="Green" StrokeThickness="3" Height="30" Width="62" Canvas.Top="539" Canvas.Left="174"/>
+        <Rectangle Tag="Groun" Stroke="Green" Fill="Green" StrokeThickness="3" Height="30" Width="107" Canvas.Top="539" Canvas.Left="174"/>
+        <Rectangle Tag="Groun" Stroke="Green" Fill="Green" StrokeThickness="3" Height="30" Width="165" Canvas.Top="539" Canvas.Left="251"/>
+        <Rectangle Tag="Groun" Stroke="Green" Fill="Green" StrokeThickness="3" Height="30" Width="126" Canvas.Top="536" Canvas.Left="366"/>
+        <Rectangle Tag="Groun" Stroke="Green" Fill="Green" StrokeThickness="3" Height="30" Width="181" Canvas.Top="539" Canvas.Left="611"/>
+        <Rectangle Tag="Groun" Stroke="Green" Fill="Green" StrokeThickness="3" Height="30" Width="126" Canvas.Top="536" Canvas.Left="366"/>
+        <Rectangle Tag="Groun" Stroke="Green" Fill="Green" StrokeThickness="3" Height="30" Width="62" Canvas.Top="506" Canvas.Left="82"/>
+        <Rectangle Tag="Groun" Stroke="Green" Fill="Green" StrokeThickness="3" Height="60" Width="72" Canvas.Top="479" Canvas.Left="555"/>
+        <Rectangle Tag="Groun" Stroke="Green" Fill="Green" StrokeThickness="3" Height="39" Width="231" Canvas.Top="261" Canvas.Left="145"/>
+        <Rectangle Tag="Groun" Stroke="Green" Fill="Green" StrokeThickness="3" Height="39" Width="114" Canvas.Top="396" Canvas.Left="680"/>
+        <Rectangle Tag="Groun" Stroke="Green" Fill="Green" StrokeThickness="3" Height="68" Width="30" Canvas.Top="471" Canvas.Left="144"/>
+
+
+
+        <Rectangle Tag="Groun" Stroke="Gold" Fill="Gold" StrokeThickness="3" Height="195" Width="16" Canvas.Top="41" Canvas.Left="10"/>
+        <Rectangle Tag="Groun"  Fill="Red" StrokeThickness="3" Height="29" Width="49" Canvas.Top="41" Canvas.Left="26"/>
+
+
+
+
+        <Rectangle Tag="Coin" Height="10" Width="10" Fill="Gold" Canvas.Left="525" Canvas.Top="479" />
+        <Rectangle Tag="Coin" Height="10" Width="10" Fill="Gold" Canvas.Left="739" Canvas.Top="381" />
+        <Rectangle Tag="Coin" Height="10" Width="10" Fill="Gold" Canvas.Left="555" Canvas.Top="50" />
+        <Rectangle Tag="Coin" Height="10" Width="10" Fill="Gold" Canvas.Left="205" Canvas.Top="521" />
+        <Rectangle Tag="Coin" Height="10" Width="10" Fill="Gold" Canvas.Left="366" Canvas.Top="521" />
+        <Rectangle Tag="Coin" Height="10" Width="10" Fill="Gold" Canvas.Left="347" Canvas.Top="50" />
+
+        <Rectangle Name="TurtleShrek" Tag="enemy" Width="30" Height="30" Fill="GreenYellow" Canvas.Left="251" Canvas.Top="501" />
+    </Canvas>
+</Window>
